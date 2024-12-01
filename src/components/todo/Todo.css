@@ -1,0 +1,104 @@
+.todo{
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    position: relative;
+}
+.title{
+    margin-bottom: 20px;
+}
+.todo-inputs{
+    border: none;
+    outline: none;
+
+}
+.todo-inputs-div{
+   
+    border-radius: 15px;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px ;
+    width: 100%;
+    padding: 1%;
+
+}
+#textarea{
+    display: none;
+
+}
+.Addbtn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: -300px;
+}
+.todo-card{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    margin-top: 40%;
+    margin-bottom: 2%;
+}
+.rows h4{
+    text-align: center;
+    font-style: italic;
+}
+
+ .rows p{
+    text-justify: inter-word;
+    text-align: justify;
+    overflow-wrap: break-word;
+}
+.cardBtn{
+    display: flex;
+    font-size: 10px;
+    
+    
+}
+.main-card-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.todo-update{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+display: none;
+}
+.updateMAindiv {
+    background-color: pink;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  flex-direction: column;
+    padding: 5px;
+}
+.todo-inputUpdate{
+    margin-bottom: 4%;
+    width: 100%;
+    padding: 3%;
+}
+.todo-inputArea{
+    width: 100%;
+    padding: 3%;
+}
+ h3{
+justify-content: center;    
+}
+.updatebtns{
+    margin: 4%;
+}
+.todo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addbtnmain{
+    width: 100px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 3%;
+}
